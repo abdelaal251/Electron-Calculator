@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .calculator {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .display {
+    background-color: #222;
+    color: #fff;
+    font-size: 2rem;
+    text-align: right;
+    padding: 20px;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+    gap: 1px; /* Space between buttons */
+    background-color: #ccc;
+  }
+  
+  .btn {
+    background-color: #f9f9f9;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:active {
+    background-color: #e0e0e0;
+  }
+  
+  .operator {
+    background-color: #f0ad4e;
+    color: #fff;
+  }
+  
+  .operator:active {
+    background-color: #ec971f;
+  }
+  
+
+  /* Equal button spans the entire width */
+.equal {
+    grid-column: span 4; /* Spans across 4 columns in the grid */
+    background-color: #f0ad4e; /* Green color for emphasis */
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .equal:active {
+    background-color: #f0ad4e; /* Slightly darker green on press */
+  }
+  
