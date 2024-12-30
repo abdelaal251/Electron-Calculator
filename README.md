@@ -82,7 +82,7 @@ An interactive calculator built with Electron and JavaScript, featuring basic ar
 ## **Screenshots**
 
 ### Calculator Interface:
-![Calculator Screenshot](https://via.placeholder.com/800x400?text=Screenshot+Placeholder)
+![alt text](image.png)
 
 ---
 
